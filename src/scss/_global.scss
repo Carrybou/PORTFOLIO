@@ -5,3 +5,9 @@ body,
 html {
     height: 100%;
 }
+p {
+    text-align: justify;
+}
+.text-center p{
+    text-align: center !important;
+}

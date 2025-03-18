@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Modern Business - Start Bootstrap Template
+        title Projets - Thomas Guibert - Portfolio
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -24,38 +24,123 @@ html(lang='en')
 
             // Projects Section
             section.py-5
-                .container.px-5.mb-5
+                .container.px-3.mb-5
                     .text-center.mb-5
                         h1.display-5.fw-bolder.mb-0
-                            span.text-gradient.d-inline Projects
+                    span.text-gradient.d-inline Projets
                     .row.gx-5.justify-content-center
 
                         .col-lg-11.col-xl-9.col-xxl-8
+                            // Project Card 1
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Mot de passe UTT
+                                            p Mon premier projet en tant que chef de projet pendant l'alternance à l'UTT , est la refonte de l'application de modification des mots de passe de chaque utilisateur du système d'information à l'UTT. J'ai pu travailler avec l'équipe Infrastructure pour permettre une évolution de sécurité, en utilisant les dernières technologies en matière de hash de mot de passe. J'ai pu aussi mettre en oeuvre un CAPTCHA pour vérifier que l'utilisateur est bien un humain et non un robot. J'ai également amélioré le design de l'application pour qu'elle soit plus moderne et plus facile à utiliser que l'ancienne version (responsive).
+                                            .badge-container.d-flex.justify-content-between.mt-3.w-100
+                                                .badge-group
+                                                    span.badge.bg-primary.text-white.m-1 Symfony 8
+                                                    span.badge.bg-secondary.text-white.m-1 SQL
+                                                a.badge.bg-dark.text-white.m-1(href='https://github.com/Carrybou' target='_blank')
+                                                    i.bi.bi-github
+                                        img.img-fluid(src='assets/captcha.png' alt='CAPTCHA')
 
                             // Project Card 1
                             .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
                                 .card-body.p-0
                                     .d-flex.align-items-center
                                         .p-5
-                                            h2.fw-bolder Project Name 1
-                                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
-                                        img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
+                                            h2.fw-bolder Unity  à l'IUT
+                                            p Au sein de mon parcours à l'IUT j'ai réalisé de nombreux projets sur Unity. J’ai pu refaire du C# et créer des fonctions pour rendre le jeu interactif. Par exemple dans le jeu style Rocket Ligue médiéval le système de déplacement des véhicules avec les deux caméras pour les deux joueurs. J’ai rencontré des difficultés sur les mélanges entre 3d, physique et algorithme. En effet la physique des véhicules était compliquée à gérer mais j’ai pu l’adapter avec la fonction de Torque des roues. J'ai également réalisé un escape game en VR dans lequel nous avons du reproduire une salle de classe en 3D et ajouter des énigmes pour sortir de la salle le tout dans une ambiance de Noël. Le dernier projet a été un jeu pour borne d'arcade, un jeu de plateforme en 2D avec des contrôles simples et intuitifs dans le style de BallBlast.
+                                        img.img-fluid(src='assets/unity.png', alt='Unity')
 
-                            // Project Card 2
-                            .card.overflow-hidden.shadow.rounded-4.border-0
+                            // Project Card 1
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
                                 .card-body.p-0
                                     .d-flex.align-items-center
                                         .p-5
-                                            h2.fw-bolder Project Name 2
-                                            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!
-                                        img.img-fluid(src='https://dummyimage.com/300x400/343a40/6c757d', alt='...')
+                                            h2.fw-bolder Emploi du Temps UTT
+                                            p Après avoir travaillé avec toute l'équipe de développeurs pour la mise à jour de l'application back gérant la création des emplois du temps, la complexité étant que chaque étudiant a un EDT différent dû au parcours à la carte. J'ai réalisé l'application front en Symfony. J'ai ajouté des fonctionnalités comme la possibilité d'avoir le lien ICS de l'EDT et de l'exporter en PDF. J'ai également amélioré le design de l'application pour qu'elle soit plus moderne et plus facile à utiliser que l'ancienne version (responsive).
+                                        img.img-fluid(src='assets/monedt.png', alt='MONEDT')
 
-            // Call to action section
-            section.py-5.bg-gradient-primary-to-secondary.text-white
-                .container.px-5.my-5
-                    .text-center
-                        h2.display-4.fw-bolder.mb-4 Let's build something together
-                        a.btn.btn-outline-light.btn-lg.px-5.py-3.fs-6.fw-bolder(href='contact.html') Contact me
+                            // Project Card 1
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder GreenBin
+                                            p Lors d'un cours à l'IUT j'ai réalisé le maquettage d'une application : GreenBin, permettant de localiser le compost le plus proche ainsi que des astuces de réutilisation des déchets organiques. Après avoir réalisé les entretiens utilisateurs de l’application , nous avons pu créer une maquette regroupant les  besoins les plus importants pour une version minimum viable. Cette maquette a ensuite été transformée en prototype interactif pour réaliser des tests utilisateurs et vérifier qu’elle répondait bien aux besoins utilisateurs.
+                                        img.img-fluid(src='assets/GreenBin.png', alt='GreenBin')
+
+
+                            // Project Card 1
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Migration Zend vers Symfony
+                                            p Au sein de l’UTT, je travaille beaucoup sur le framework Symfony, j’ai réalisé des migrations entre des anciennes versions de Symfony et Symfony 7. L’exemple le plus flagrant est la migration de Zend Php 5 à Symfony 7 Php 8. Les différences technologiques entre les deux sont telles que j’ai dû recommencer un projet qui réalisait exactement les mêmes actions pour le réaliser car une simple migration de version n’était pas envisageable.
+                                        img.img-fluid(src='assets/zend.png', alt='Exemple de code Zend')
+
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Mise en place de Docker
+                                            p Une de mes principales tâches de mes premiers mois en entreprise a été la mise en place de Docker sur toutes les applications Symfony puis certains autres framework php et une application php native. Docker est l'équivalent d'une machine virtuelle mais pour serveur. Il permet d’avoir exactement les mêmes configurations entre nos ordinateurs de développement en local et les serveurs distants de test et production. J’ai donc dû créer un docker file et adapter la configuration à la quinzaine d’applications à dockeriser.
+                                        img.img-fluid(src='assets/docker.png', alt='Exemple de code Docker')
+
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Cassiopée Festival UTT
+                                            p Lors de la création du site de Cassiopée en VueJS, j'ai implémenté une vidéo en fond sur la page d'accueil, mais pour améliorer le temps de chargement sur les smartphones, j'ai ajouté une image de remplacement pendant le chargement de la vidéo. J’ai pu améliorer le référencement SEO du site pour nous permettre d’être bien positionnés sur les événements dans l’Aube. Grâce notamment à de nombreux backlink. J'ai également utilisé une pipeline de déploiement pour séparer les environnements de développement et de production, facilitée par Docker et VueJS.
+                                        img.img-fluid(src='assets/cassiopee.png', alt='Site de Cassiopée')
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Administration WordPress Nuit Campus 3
+                                            p Pendant ma coordination de la Nuit Campus 3, j'ai administré le site wordPress de l'événement et refait la charte graphique. En effet, le site a été réalisé par Zetruc avec qui j'ai collaboré pour implementer la charte graphique de l'année 2024
+                                        img.img-fluid(src='assets/nc3.png', alt='Exemple de code Docker')
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Geometric Odyssey
+                                            p Lors de la matière à l'UTT nous avons réalisé un jeu vidéo sur Unity. C'est un jeu de plateforme dans le style de Geometie Dash. Mais avec des particularités comme le fait de pouvoir poser des plateformes et ralentir le temps pour passer certains obstacles. Grâce à ce projet j'ai pu améliorer mes compétences en logique de programmation, en gestion de projet et en design. Et j'ai appris comment utiliser Unity.
+                                        img.img-fluid(src='assets/Geometric_Odyssey.png', alt='Exemple Sudoku')
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Résolveur de Sudoku
+                                            p Lors de la matière à l'UTT j'ai réalisé un Résolveur de Sudoku en C. Il permet d'injecter une grille de sudoku et d'avoir en sortie le sudoku résolu. Mais aussi de détecter si la grille était fausse. Grâce à ce projet j'ai pu améliorer mes compétences en logique de programmation , en C et en gestion de projet.
+                                        img.img-fluid(src='assets/sudoku.jpg', alt='Exemple Sudoku')
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Portfolio de ma soeur
+                                            p J'ai réalisé en projet personnel le portfolio de couture de ma soeur. Il regroupe les créations qu'elle a faites, des informations sur elle, son cv et une section contact. Grâce à ce projet j'ai pu améliorer mes compétences en HTML, CSS, JavaScript, en gestion de projet et en design.
+                                        img.img-fluid(src='assets/siteflore.png', alt='Exemple Sudoku')
+                            // Project Card 2
+                            .card.overflow-hidden.shadow.rounded-4.border-0.mb-5
+                                .card-body.p-0
+                                    .d-flex.align-items-center
+                                        .p-5
+                                            h2.fw-bolder Logiciel de gestion de stock
+                                            p J'ai réalisé un logiciel de gestion d'un stock d'un magasin en ligne grâce aux languages C et python à l'UTT. Le logiciel permet de gérer une base de donnée d'articles : ajouter des articles, en retirer, passer des commandes en optimisant les articles à plus hautes valeurs pour remplir un camion de livraison et faire des statistiques sur les produits/ventes. Grâce à ce projet j'ai pu améliorer mes compétences en gestion de base de donnée en Python, en C et en gestion de projet.
+                                        img.img-fluid-right(src='assets/ezone.png', alt='Exemple de code Docker')
+
 
         // Footer
         include includes/footer.pug

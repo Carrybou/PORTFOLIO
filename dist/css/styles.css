@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
 */
 /*!
@@ -11554,6 +11554,14 @@ html {
   height: 100%;
 }
 
+p {
+  text-align: justify;
+}
+
+.text-center p {
+  text-align: center !important;
+}
+
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
   background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
@@ -11730,5 +11738,48 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
+  }
+}
+.img-fluid {
+  max-width: 300px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+}
+
+.img-fluid-right {
+  max-width: 300px;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
+}
+
+/* BADGES */
+.badge-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.badge-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    display: flex !important;
+    flex-direction: column;
+    padding-bottom: 20px;
   }
 }
